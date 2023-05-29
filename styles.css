@@ -16,6 +16,19 @@ button {
   cursor: pointer;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 58px;
+  font-size: 56px;
+  color: #1e1e1e;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2.green {
+  color: #219653;
+}
+
 .section-hero {
   display: flex;
   flex-direction: column;
@@ -61,6 +74,7 @@ button {
   width: 1216px;
   height: 594px;
   padding-top: 64px;
+  margin-bottom: 90px;
 }
 
 .hero-info-title {
@@ -100,4 +114,53 @@ button {
   width: 32px;
   height: 32px;
   cursor: pointer;
+}
+
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fefefe;
+  width: 100vw;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.skill-cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  column-gap: 36px;
+  margin-top: 45px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  height: 690px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 12px;
+  border-style: solid;
+  padding: 12px;
+}
+
+.skill-card-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #219653;
+}
+
+.skill-icons-img {
+  width: 36px;
+  height: 33px;
 }
